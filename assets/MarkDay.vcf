@@ -3,12 +3,11 @@ VERSION:3.0
 FN:Mark Day
 N:Day;Mark;;;
 EMAIL;TYPE=INTERNET;TYPE=WORK:mark.day@olsenday.com
-item1.TEL:(832) 795-2745
+TEL;TYPE=CELL:(832) 795-2745
+item1.ADR:;;;;;;
 item1.X-ABLabel:
-item2.ADR:;;;;;;
+item2.ORG:Olsen Day
 item2.X-ABLabel:
-item3.ORG:Olsen Day
+item3.TITLE:Managing Director
 item3.X-ABLabel:
-item4.TITLE:CEO
-item4.X-ABLabel:
 END:VCARD
