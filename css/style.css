@@ -3,6 +3,11 @@ body {
 	background-color: #0098ffb0;
   margin: 0;
 }
+
+.site-pages {
+	display: block;
+}
+
 .style5 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
