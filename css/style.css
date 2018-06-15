@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.LinkedIn-link {
+	color: black;
+}
+
 .site-pages {
 	display: block;
 }
@@ -62,6 +66,7 @@ a:link {
 	color: #445327;
 }
 a:visited {
-	color: #445327;
+	color: black;
+	/*Will change this later*/
 }
 </style>
