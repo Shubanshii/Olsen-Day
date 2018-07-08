@@ -1,81 +1,95 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Olsen Day, Executive Search</title>
-
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olsen Day</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
-  <header>
-    <h1>Olsen Day</h1>
-    <h5>Executive Search & Consulting</h5>
-  </header>
-  <nav class="main-nav">
-    <a class="site-pages" href="index.html">Home</a>
-    <a class="site-pages" href="aboutus.html">About</a>
-    <a class="site-pages" href="otherservices.html">Other Services</a>
-    <a class="site-pages" href="making-a-difference.html">Making A Difference</a>
-    <a class="site-pages" href="ongoing-searches.html">Ongoing Searches</a>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand"><img src="img/header6.jpg" alt="Olsen Day Executive Search & Consulting"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="aboutus.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="other-services.html" class="nav-link">Other Services</a>
+          </li>
+          <li class="nav-item">
+          <li class="nav-item">
+            <a href="making-a-difference.html" class="nav-link">Making A Difference</a>
+          </li>
+          <li class="nav-item">
+            <a href="ongoing-searches.html" class="nav-link">Ongoing Searches</a>
+          </li>
+            <a href="contact.html" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-  <p>Contact Us
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 class="display-4">Contact Us</h1>
+      </div>
+      <hr>
+      <div class="col-12">
+        <p>
+          Olsen Day is located in the Ambrose Group building in northwest Houston.
+          <br>
+          <h3 id="mailing-address">Mailing Address</h3> <br>
+          Olsen Day <br>
+          16545 Village Drive <br>
+          Building A, Suite 200 <br>
+          Jersey Village, TX 77040 <br> <br>
+          Telephone:
+          (832) 795-2745 <br><br>
 
-Olsen Day is located in the Ambrose Group building in northwest Houston.
+          Fax:
+          (713) 688-1117 <br><br>
 
-Mailing Address:
-Olsen Day
-16545 Village Drive
-Building A, Suite 200
-Jersey Village, TX 77040
-Telephone:
-(832) 795-2745
+          Email Address:
+          info@olsenday.com</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/meday"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="email">
+          <h2>Email:</h2>
 
-Fax:
-(713) 688-1117
+          <form action="mailto:mark.day@olsenday.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+          </form>
 
-Email Address:
-info@olsenday.com</p>
-<div class="LinkedIn">
-  <h3><a class="LinkedIn-link" href="https://www.linkedin.com/in/meday?trk=org-employees_mini-profile_title">LinkedIn</a></h3>
+        </div>
+        <div>
+          <a href="assets/MarkDay.vcf" download><img id="vCard" src="img/vCard-Icon.png" alt=""></a>
 
-</div>
-<div class="Email">
-  <h2>Email:</h2>
-
-  <form action="mailto:mark.day@olsenday.com" method="post" enctype="text/plain">
-    Name:<br>
-    <input type="text" name="name"><br>
-    E-mail:<br>
-    <input type="text" name="mail"><br>
-    Comment:<br>
-    <input type="text" name="comment" size="50"><br><br>
-    <input type="submit" value="Send">
-    <input type="reset" value="Reset">
-  </form>
-
-</div>
-<div class="vCard">
-  <h3><a href="./assets/MarkDay.vcf" download>vCard</a></h3>
-
-</div>
-<!-- <div class="testEmail">
-  <form method="post" name="contact_form"
-action="contact-form-handler.php">
-    Your Name:<br>
-    <input type="text" name="name"><br>
-
-    Email Address:<br>
-    <input type="text" name="email"><br>
-
-    Message:<br>
-    <textarea name="message"></textarea><br>
-
-    <input type="submit" value="Submit"><br>
-</form>
-</div> -->
-</body>
-
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
 </html>
