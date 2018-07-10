@@ -1,3 +1,5 @@
+require('./config/config');
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
@@ -5,7 +7,7 @@ const path = require('path');
 const nodemailer = require('nodemailer');
 
 const app = express();
-// const port = process.env.PORT;
+const port = process.env.PORT;
 
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
@@ -61,7 +63,7 @@ app.post('/send', (req, res) => {
         secure: false, // true for 465, false for other ports
         auth: {
             user: 'shubanshii@protonmail.com', // generated ethereal user
-            pass: 'tSDavCRY2qMmOQ1X' // generated ethereal password
+            pass: process.env.PASSWORD // generated ethereal password
         },
         tls: {
           rejectUnauthorized:false
@@ -89,6 +91,6 @@ app.post('/send', (req, res) => {
     });
 });
 
-app.listen(3000, () => {
-  console.log(`Started up at port 3000`);
+app.listen(port, () => {
+  console.log(`Started up at port ${port}`);
 });
