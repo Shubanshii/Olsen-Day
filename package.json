@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "main": "app.js",
   "author": "Chris Day",
+  "scripts": {
+  "start": "node app.js"
+},
+"engines": {
+  "node": "10.4.0"
+},
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
