@@ -20,7 +20,6 @@ html, body {
 }
 
 .display-2 {
-  color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
   letter-spacing: -1px;
   background: rgb(0, 0, 0); /* fallback color */
@@ -52,6 +51,7 @@ html, body {
   text-shadow: 1px 1px 1px 10px #000;
   color: #92bfe7;
 }
+
 
 .btn-primary {
   background-color: #6648b1;
@@ -215,7 +215,48 @@ footer a {
 
 }
 @media (max-width: 576px) {
+  .display-2 {
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  .carousel-caption {
+    position: static;
+    top: 50%;
+    transform: translateY(-85%);
+    padding: 0;
+  }
 
+  .carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+    color: #92bde7;
+    line-height: .8em;
+    position: relative;
+    top: -47px;
+    padding: 30px 0 2px 0;
+  }
+
+  .carousel-caption h3 {
+    position: relative;
+    top: -35px;
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 10px #000;
+    color: #92bfe7;
+    padding: 0;
+  }
+
+  div.carousel-item {
+    height: 240px;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
 }
 
 
