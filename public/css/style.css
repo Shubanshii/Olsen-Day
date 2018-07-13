@@ -212,6 +212,39 @@ footer a {
 
   }
 @media (max-width: 768px) {
+  #difference {
+    display: block;
+    position: relative;
+    right: 15px;
+  }
+  .left-mobile {
+    float: left;
+  }
+  #china {
+    position: relative;
+    left: 20px;
+  }
+  #fam{
+    position: relative;
+    left: 25px;
+  }
+  #tent {
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+  }
+  #tent-container {
+    position: relative;
+    bottom: 50px;
+  }
+  #campus {
+    position: relative;
+    left: 25px;
+  }
+  #olympics {
+    position: relative;
+    left: 25px;
+  }
 
 }
 @media (max-width: 576px) {
@@ -257,6 +290,12 @@ footer a {
   .carousel-indicators {
     display: none;
   }
+
+  .display-4 {
+    text-align: center;
+  }
+
+
 }
 
 
