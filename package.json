@@ -4,16 +4,17 @@
   "main": "app.js",
   "author": "Chris Day",
   "scripts": {
-  "start": "node app.js"
-},
-"engines": {
-  "node": "10.4.0"
-},
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "10.4.0"
+  },
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "nodemailer": "^4.6.7"
+    "nodemailer": "^4.6.7",
+    "nodemon": "^1.18.1"
   }
 }
