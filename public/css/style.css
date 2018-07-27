@@ -210,6 +210,15 @@ footer a {
 
 /*---Media Queries --*/
 
+@media (max-width: 688px) {
+  .carousel-caption h1 {
+    font-size: 410%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+    color: #92bde7;
+  }
+}
+
 @media (max-width: 576px) {
   .carousel-indicators {
     display: none;
