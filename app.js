@@ -22,6 +22,10 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.get('/markday', (req, res) => {
+  res.render('markday');
+});
+
 app.get('/aboutus', (req, res) => {
   res.render('aboutus');
 });
@@ -34,12 +38,20 @@ app.get('/making-a-difference', (req, res) => {
   res.render('making-a-difference');
 });
 
+app.get('/completed-searches', (req, res) => {
+  res.render('completed-searches');
+});
+
 app.get('/ongoing-searches', (req, res) => {
   res.render('ongoing-searches');
 });
 
 app.get('/contact', (req, res) => {
   res.render('contact');
+});
+
+app.get('/searches/general', (req, res) => {
+  res.render('searches/general');
 });
 
 app.post('/send', (req, res) => {
