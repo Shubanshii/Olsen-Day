@@ -65,41 +65,18 @@ html, body {
 
 .searches {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .position {
     margin-bottom: 20px;
 }
 
-.consulting {
-  text-align: justify;
-  position: relative;
-  left: 45%;
-}
-
 .overview {
   margin: auto;
 }
 
-.left {
-  float: left;
-}
 
-.clear {
-  clear: left;
-}
-
-#make-intro {
-  margin-bottom: 50px;
-}
-
-.every-village {
-  margin-bottom: 150px;
-}
-
-.make-container {
-  margin-bottom: 100px;
-}
 
 #mailing-address {
   text-decoration: underline;
@@ -262,13 +239,6 @@ footer a {
 
 /*---Media Queries --*/
 
-@media (max-width: 1030px) {
-  .consulting {
-    text-align: justify;
-    position: relative;
-    left: 25%;
-  }
-}
 
 @media (max-width: 688px) {
   .carousel-caption h1 {
