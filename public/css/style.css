@@ -240,6 +240,26 @@ footer a {
   color: #d5d5d5;
 }
 
+.difference {
+  padding-top: 2rem;
+}
+.difference-body {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.difference-body hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.caption {
+  margin-top: 20px;
+}
+
+
 /*---Media Queries --*/
 
 @media (max-width: 1030px) {
@@ -282,6 +302,23 @@ footer a {
     text-align: justify;
     position: relative;
     left: 15%;
+  }
+}
+
+@media (max-width: 414px) {
+  .swemri {
+    position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+  width: 250px;
+  }
+  .every{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%);
+    width: 250px;
   }
 }
 
