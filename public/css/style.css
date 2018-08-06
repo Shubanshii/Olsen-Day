@@ -112,9 +112,22 @@ html, body {
   padding-top: 2rem;
 }
 
+.welcome-general {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
 .welcome hr {
   border-top: 2px solid #b4b4b4;
   width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-general hr {
+  border-top: 2px solid #b4b4b4;
+  width: 97%;
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
@@ -216,6 +229,13 @@ footer a {
 .difference-body {
   width: 75%;
   margin: 0 auto;
+}
+
+.difference hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
 }
 
 .difference-body hr {
