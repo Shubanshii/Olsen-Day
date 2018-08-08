@@ -71,8 +71,8 @@
       </div>
       <div class="contact">
         <h3>Email Us</h3>
-        {{msg}}
-        <form method="POST" action="/send">
+        <!-- {{msg}} -->
+        <form method="POST" action="https://formspree.io/shubanshii@protonmail.com">
           <p>
             <label>Name</label>
             <input type="text" name="name">
@@ -94,7 +94,7 @@
             <textarea name="message" rows="5"></textarea>
           </p>
           <p class="full">
-            <button type="submit">Submit</button>
+            <input type="submit" value="Send">
           </p>
         </form>
       </div>

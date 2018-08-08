@@ -18,6 +18,10 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.get('/index.html', (req, res) => {
+  res.render('index');
+});
+
 app.get('/', (req, res) => {
   res.render('index');
 });
