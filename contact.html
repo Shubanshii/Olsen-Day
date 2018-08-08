@@ -24,28 +24,27 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-						<a href="/" class="nav-link">Home</a>
+						<a href="index.html" class="nav-link">Home</a>
 					</li>
 					<li class="nav-item">
-						<a href="/markday" class="nav-link">Mark Day</a>
+						<a href="markday.html" class="nav-link">Mark Day</a>
 					</li>
 					<li class="nav-item">
-						<a href="aboutus" class="nav-link">About Us</a>
+						<a href="aboutus.html" class="nav-link">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a href="other-services" class="nav-link">Other Services</a>
+						<a href="other-services.html" class="nav-link">Other Services</a>
 					</li>
 					<li class="nav-item">
-					<li class="nav-item">
-						<a href="making-a-difference" class="nav-link">Making A Difference</a>
+						<a href="making-a-difference.html" class="nav-link">Making A Difference</a>
 					</li>
 					<li class="nav-item">
-						<a href="completed-searches" class="nav-link">Completed Searches</a>
+						<a href="completed-searches.html" class="nav-link">Completed Searches</a>
 					</li>
 					<li class="nav-item">
-						<a href="ongoing-searches" class="nav-link">Ongoing Searches</a>
+						<a href="ongoing-searches.html" class="nav-link">Ongoing Searches</a>
 					</li>
-						<a href="contact" class="nav-link">Contact Us</a>
+						<a href="contact.html" class="nav-link">Contact Us</a>
 					</li>
         </ul>
       </div>
@@ -71,8 +70,8 @@
       </div>
       <div class="contact">
         <h3>Email Us</h3>
-        {{msg}}
-        <form method="POST" action="/send">
+        <!-- {{msg}} -->
+        <form method="POST" action="https://formspree.io/shubanshii@protonmail.com">
           <p>
             <label>Name</label>
             <input type="text" name="name">
@@ -94,7 +93,7 @@
             <textarea name="message" rows="5"></textarea>
           </p>
           <p class="full">
-            <button type="submit">Submit</button>
+            <input type="submit" value="Send">
           </p>
         </form>
       </div>
